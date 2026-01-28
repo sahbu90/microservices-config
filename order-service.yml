@@ -8,6 +8,6 @@ spring:
     spring:
   kafka:
     admin:
-      auto-create: false
-    bootstrap-servers: localhost:9092
+      enabled: false
+    #bootstrap-servers: localhost:9092
 
