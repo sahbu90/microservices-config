@@ -4,7 +4,7 @@ spring:
 
   cloud:
     config:
-      enabled: false   # 🔥 THIS LINE FIXES IT
+      enabled: false
 
   datasource:
     url: jdbc:postgresql://localhost:5432/authdb
